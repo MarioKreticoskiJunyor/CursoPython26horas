@@ -2,20 +2,16 @@
 #       Armazenar mais de uma informação em variaveis
 #       manter a sequiencia dos dados em uma variavel
 
-cidade1 = 'Rio de Janeiro'
-cidade2 = 'São paulo'
-cidade3 = 'Salvador'
+
+# letras = ['a', 'b', 'c', 'd']
+# # final = numeros * 2
+
+# numeros.extend(letras)
+
+# numeros = [2 , 3 , 4 , 5]
+# print(numeros) 
 
 
-cidades = ['Rio de Janeiro', 'Sao Paulo', 'Salvador', 'Goiania']
+itens = ['item1', 'item2'], ['item3' ,'item4']
 
-# cidades.append('Santa Catarina')
-# cidades.remove('Salvador')
-# cidades.insert(1,'Santa Catarina')
-# cidades.pop(0)
-cidades.sort()
-
-
-
-print(cidades)
-
+print(itens[1][1])

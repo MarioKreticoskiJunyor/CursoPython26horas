@@ -1,17 +1,16 @@
-#Listas 
-#       Armazenar mais de uma informação em variaveis
-#       manter a sequiencia dos dados em uma variavel
+# Unpacking List
+#     Armazenar mais de uma informaçao em variaveis 
+#     Manter a sequencia dos dados em uma variavel
 
 
-# letras = ['a', 'b', 'c', 'd']
-# # final = numeros * 2
 
-# numeros.extend(letras)
+produtos = ['arroz', 'feijao', 'laranja', 'banana',5,6,7,8]
 
-# numeros = [2 , 3 , 4 , 5]
-# print(numeros) 
+item1, item2,*outros, item8, = produtos
 
 
-itens = ['item1', 'item2'], ['item3' ,'item4']
 
-print(itens[1][1])
+print(item1)
+print(item2)
+print(item8)
+print(outros)
